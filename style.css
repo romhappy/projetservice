@@ -36,17 +36,17 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 600px;
+    height: 800px;
   }
   
   .image-container img {
-    max-width: 350px;
+    max-width: 150px;
     max-height: 200px;
     object-fit: contain;
     margin: 40px;
-    border: 1px solid grey;
-    padding:5px;
+    border: 0px solid white;
+    padding:20px;
     border-radius: 5px;
-    box-shadow: 1px 1px 5px 2px;
+    box-shadow: 0px 0px 9px -5px;
   }
   
