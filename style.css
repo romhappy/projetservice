@@ -99,6 +99,13 @@ flex-direction: column;
     background-color: #6b62fc;
   }
   
+  footer{
+    display: flex;
+    justify-content:flex-start;
+    padding: 0px 75px 0px 75px;
+
+  }
+
   .btn_ressources:hover {
     background-color: #5144ff;
   }
