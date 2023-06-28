@@ -1,0 +1,127 @@
+html{
+  background-image: url('img/main_background.svg');
+  background-size: cover; /* ou contain, en fonction de vos besoins */
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 0;
+}
+
+main {
+height: 600px;
+margin: 0;
+padding: 0;
+overflow: hidden;
+display: flex;
+align-content: center;
+justify-content: center;
+flex-wrap: wrap;
+flex-direction: column;
+}
+
+.title {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  border: 0px solid white;
+  box-shadow: 0px 0px 9px -4px;
+
+}
+
+  .container {
+    height:100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box; /* Inclut les rembourrages et les bordures dans la taille totale */
+  }
+  
+  .image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+    border: 1px solid white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 9px -4px;
+    padding: 25px;
+    width: 13%;
+    height: 30%;
+    background-color: white;
+  }
+
+  .image:hover{
+    box-shadow: 0px 0px 20px -4px #1c4093 ;
+
+  }
+   
+   .image img {
+    width: 200px;
+    height: auto;
+  }
+  
+  .image h3 {
+    margin-top: 25px;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+    
+  }
+    
+  .btn_ressources {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    border: 3px solid #fecb37;
+    border-radius: 0.25rem;
+    color: #fff;
+    background-color: #1c4093;
+  }
+  
+  footer{
+    display: flex;
+    justify-content:flex-start;
+    padding: 0px 75px 0px 75px;
+
+  }
+
+  .btn_ressources:hover {
+    background-color: #4e70bd;
+  }
+  
+  .btn_ressources:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  }
+  
+  .btn_ressources:active {
+    background-color: #1c4093;
+    border-color: #1c4093;
+  }
+  
