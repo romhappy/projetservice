@@ -49,7 +49,6 @@ flex-direction: column;
   
   .table th, .table td {
     padding: 8px;
-    text-align: center; /* Alignement au centre */
     border-bottom: 1px solid #ddd;
   }
   
