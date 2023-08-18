@@ -24,7 +24,6 @@ main {
 height: 600px;
 margin: 0;
 padding: 0;
-overflow: hidden;
 display: flex;
 align-content: center;
 justify-content: center;
@@ -88,14 +87,13 @@ flex-direction: column;
   }
     
   .btn_ressources {
-    display: inline-block;
+    
     padding: 0.5rem 1rem;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
     text-align: center;
     white-space: nowrap;
-    vertical-align: middle;
     cursor: pointer;
     user-select: none;
     border: 3px solid #fecb37;
@@ -125,3 +123,24 @@ flex-direction: column;
     border-color: #1c4093;
   }
   
+
+/* Media queries for different screen sizes */
+@media screen and (max-width: 600px) {
+  .title{
+    width:300px;
+    height: 150px;
+    margin-top:50px;
+    margin-bottom: 50px;
+  }
+  main{
+    display:block;
+  }
+  .image{
+    width:auto;
+    
+  }
+
+
+  
+}
+
