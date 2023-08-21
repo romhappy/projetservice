@@ -153,3 +153,69 @@ footer{
     background-color: #1c4093;
 }
 
+/* Media queries for different screen sizes */
+@media screen and (max-width: 900px) {
+  .title{
+    max-width: 100%; /* Full width on smaller screens */
+    width: calc(100% - 30px); /* Adjust width to account for padding */
+    height: auto;
+    margin:auto;
+  }
+  main{
+    display:block;
+    margin-top: 50px;
+  }
+  .image{
+    width:auto;
+    
+  }
+
+  footer{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .btn_ressources{
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+  
+  .concepts{
+    max-width: 100%; /* Full width on smaller screens */
+    width: calc(100% - 30px); /* Adjust width to account for padding */
+    height: auto;
+  }
+
+  .img_citoyen{
+    max-width: 100%; /* Full width on smaller screens */
+    width: calc(100% - 30px); /* Adjust width to account for padding */
+    height: auto;
+    margin-top:50px
+  }
+
+  .sous-titres {
+    text-align:center;
+    }
+  
+    html{
+      background-image: none;
+    }
+
+    .img_citoyen_container{
+      height: auto;
+    }
+    .img_com{
+    max-width: 100%; /* Full width on smaller screens */
+    width: calc(100% - 5px); /* Adjust width to account for padding */
+    height: auto;
+    }
+
+    .li_com_container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+}

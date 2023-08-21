@@ -137,13 +137,23 @@ flex: 1;
   }
   main{
     display:block;
+    margin-top: 50px;
   }
   .image{
     width:auto;
     
   }
 
+  footer{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+  }
 
+  .btn_ressources{
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
   
 }
 
