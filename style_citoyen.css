@@ -108,7 +108,7 @@ flex-direction: column;
 }
 
 .img_com:hover{
-  margin:15px;
+  margin-top:15px;
   border-radius: 5px;
   border: 0px solid white;
   box-shadow: 0px 0px 20px -4px;
