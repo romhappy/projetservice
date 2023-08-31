@@ -22,7 +22,7 @@ header {
 
 .img_citoyen_container {
 height: 200%;
-margin: 0;
+margin: 75px;
 padding: 0;
 display: flex;
 align-content: center;
